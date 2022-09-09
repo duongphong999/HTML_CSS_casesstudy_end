@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"
+        integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc"
+        crossorigin="anonymous"></script>
+        <script src="js/main.js"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+        <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <title>Shop bán acc liên quân</title>
+
+</head>
+
+<body>
+
+    <header class="container">
+
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href=""><img src="images/logo.png" style="width:80%;" alt=""></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Trang chủ <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Lịch Sử Nạp</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="#">Nạp Tiền</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link ">Lịch Sử Mua</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <button class="btn btn-outline-success my-2 my-sm-0 mr-3" type="submit">Đăng Nhập</button>
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Đăng Ký</button>
+                </form>
+            </div>
+
+        </nav>
+
+        <div class="row banner">
+            <div class="col-md-4 col-sm-12 form">
+                <div class="toptext">
+                    NẠP THẺ
+                </div>
+                <div class="form-group">
+                    <div class="col-12">
+                        <select name="" id="" class="select">
+                            <option value="">Chọn loại thẻ</option>
+                            <option value="2">VIETTEL(Ưu tiên - xử lý nhanh)</option>
+                            <option value="6">VINAPHONE(Ưu tiên - xử lý nhanh</option>
+                            <option value="3">MOBILEPHONE</option>
+                            <option value="11">VIETNAMMOBILE</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-12">
+                        <select class="select">
+                            <option value="">-- Chọn đúng mệnh giá. Sai mất thẻ --</option>
+                            <option value="10000">10.000 VNĐ (nhận 100%)</option>
+                            <option value="20000">20.000 VNĐ (nhận 100%)</option>
+                            <option value="30000">30.000 VNĐ (nhận 100%)</option>
+                            <option value="50000">50.000 VNĐ (nhận 100%)</option>
+                            <option value="100000">100.000 VNĐ (nhận 100%)</option>
+                            <option value="200000">200.000 VNĐ (nhận 100%)</option>
+                            <option value="300000">300.000 VNĐ (nhận 100%)</option>
+                            <option value="500000">500.000 VNĐ (nhận 100%)</option>
+                            <option value="1000000">1.000.000 VNĐ (nhận 100%)</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-12">
+                        <input class="select" type="text" placeholder="số seri">
+                    </div>
+
+                </div>
+                <div class="form-group">
+                    <div class="col-12">
+                        <input class="select" type="text" placeholder="mã số thẻ">
+                    </div>
+
+                </div>
+                <div class="col-12">
+                    <button class="btn-nap" type="submit">NẠP THẺ
+                    </button>
+                </div>
+
+            </div>
+            <div class="col-md-8 col-sm-12">
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images/bia.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/bia.png" class="d-block w-100" alt="...">
+                        </div>
+
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-target="#carouselExampleIndicators"
+                        data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-target="#carouselExampleIndicators"
+                        data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </button>
+                </div>
+            </div>
+
+        </div>
+    </header>
+    <main>
+        <section class="section-1 container mt-5">
+            <div class="row">
+                <div class="col-12">
+                    <h1>DANH MỤC VÒNG QUAY</h1>
+                    <hr>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-sm-12 col-md-6  mt-3">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="images/lq.gif" style="width:100%;" alt="">
+                        </div>
+                        <strong class="card-title mt-3">LIÊN QUÂN MOBILE</strong>
+                        <div class="card-info">
+                            <span>Số tài khoản:</span> 58
+                        </div>
+                        <button class="card-button">Mua Ngay</button>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-12 col-md-6  mt-3">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="images/lathinh4.gif" style="width:100%;" alt="">
+                        </div>
+                        <strong class="card-title mt-3">VÒNG QUAY SỔ SỨ MỆNH</strong>
+                        <div class="card-info">
+                            <span>Số lượt quay:</span> 238,433
+                        </div>
+                        <button class="card-button">Chơi Ngay</button>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-sm-12 col-md-6  mt-3">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="images/lathinh1.gif" style="width:100%;" alt="">
+                        </div>
+                        <strong class="card-title mt-3">TÌM BÁU VẬT</strong>
+                        <div class="card-info">
+                            <span>Số lượt quay:</span> 118,443
+                        </div>
+                        <button class="card-button">Chơi Ngay</button>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-sm-12 col-md-6  mt-3">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="images/lathinh2.gif" style="width:100%;" alt="">
+                        </div>
+                        <strong class="card-title mt-3">SĂN BÁNH TRUNG THU</strong>
+                        <div class="card-info">
+                            <span>Số lượt quay:</span> 108,443
+                        </div>
+                        <button class="card-button">Chơi Ngay</button>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-sm-12 col-md-6  mt-3">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="images/vq1.gif" style="width:100%;" alt="">
+                        </div>
+                        <strong class="card-title mt-3">VÒNG QUAY FLO GIÁM SÁT </strong>
+                        <div class="card-info">
+                            <span>Số lượt quay:</span> 108,443
+                        </div>
+                        <button class="card-button">Chơi Ngay</button>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-sm-12 col-md-6  mt-3">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="images/vq2.gif" style="width:100%;" alt="">
+                        </div>
+                        <strong class="card-title mt-3">VÒNG QUAY TRUNG THU</strong>
+                        <div class="card-info">
+                            <span>Số lượt quay:</span> 108,443
+                        </div>
+                        <button class="card-button">Chơi Ngay</button>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-sm-12 col-md-6  mt-3">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="images/vq3.gif" style="width:100%;" alt="">
+                        </div>
+                        <strong class="card-title mt-3">VÒNG QUAY HÈ MÁT MẺ</strong>
+                        <div class="card-info">
+                            <span>Số lượt quay:</span> 108,443
+                        </div>
+                        <button class="card-button">Chơi Ngay</button>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-sm-12 col-md-6  mt-3">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="images/vq4.gif" style="width:100%;" alt="">
+                        </div>
+                        <strong class="card-title mt-3">VÒNG QUAY CHỊ HẰNG</strong>
+                        <div class="card-info">
+                            <span>Số lượt quay:</span> 108,443
+                        </div>
+                        <button class="card-button">Chơi Ngay</button>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-12 col-md-6  mt-3">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="images/vq3.gif" style="width:100%;" alt="">
+                        </div>
+                        <strong class="card-title mt-3">VÒNG QUAY TUYỆT SẮC</strong>
+                        <div class="card-info">
+                            <span>Số lượt quay:</span> 108,443
+                        </div>
+                        <button class="card-button">Chơi Ngay</button>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </section>
+        <section class="section-2 container mt-5">
+            <div class="row">
+                <div class="col-12">
+                    <h1>DANH MỤC GAME LIÊN QUÂN</h1>
+                    <hr>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-sm-12 col-md-6  mt-3">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="images/lq.gif" style="width:100%;" alt="">
+                        </div>
+                        <strong class="card-title mt-3">LIÊN QUÂN MOBILE</strong>
+                        <div class="card-info">
+                            <span>Số tài khoản:</span> 58
+                        </div>
+                        <button class="card-button">Mua Ngay</button>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-12 col-md-6  mt-3">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="images/rdqh.gif" style="width:100%;" alt="">
+                        </div>
+                        <strong class="card-title mt-3">MỞ HÒM QUÂN HUY 50K</strong>
+                        <div class="card-info">
+                            <span>Số tài khoản:</span> 500
+                        </div>
+                        <button class="card-button">Chơi Ngay</button>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-sm-12 col-md-6  mt-3">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="images/rd20.gif" style="width:100%;" alt="">
+                        </div>
+                        <strong class="card-title mt-3">THỬ VẬN MAY LIÊN QUÂN 20K</strong>
+                        <div class="card-info">
+                            <span>Số tài khoản:</span> 500
+                        </div>
+                        <button class="card-button">Chơi Ngay</button>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-sm-12 col-md-6  mt-3">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="images/rd50.gif" style="width:100%;" alt="">
+                        </div>
+                        <strong class="card-title mt-3">THỬ VẬN MAY LIÊN QUÂN 50K</strong>
+                        <div class="card-info">
+                            <span>Số tài khoản:</span> 0
+                        </div>
+                        <button class="card-button">Chơi Ngay</button>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-sm-12 col-md-6  mt-3">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="images/rd100.gif" style="width:100%;" alt="">
+                        </div>
+                        <strong class="card-title mt-3">THỬ VẬN MAY LIÊN QUÂN 100K</strong>
+                        <div class="card-info">
+                            <span>Số tài khoản:</span> 0
+                        </div>
+                        <button class="card-button">Chơi Ngay</button>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+        <section class="section-3 container mt-5">
+            <div class="row">
+                <div class="col-12">
+                    <h1>DANH MỤC ACCOUNT LIÊN QUÂN</h1>
+                    <hr>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-sm-12 col-md-6  mt-3">
+                    <div class="card">
+                        <img style="position: absolute;max-width: 50%;height: auto;top: -5px;right: -5px;z-index: 10;" src="images/giamgia.png">
+                        <div class="card-image">
+                            <img src="images/acclienquan1.gif" style="width:100%;" alt="">
+                        </div>
+                        <strong class="card-title mt-3">LIÊN QUÂN MOBILE</strong>
+                        <div class="card-info">
+                            <span>Số tài khoản:</span> 58
+                        </div>
+                        <button class="card-button" type="button"><a href="acclienquan.html">XEM NGAY</a> </button>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-12 col-md-6  mt-3">
+                    <div class="card">
+                        <div class="card-image">
+                            <img style="position: absolute;max-width: 50%;height: auto;top: -5px;right: -5px;z-index: 10;" src="images/giamgia.png">
+                            <img src="images/lienquanvip1.gif" style="width:100%;" alt="">
+                        </div>
+                        <strong class="card-title mt-3">NICK LIÊN QUÂN VIP</strong>
+                        <div class="card-info">
+                            <span>Số tài khoản:</span> 500
+                        </div>
+                        <button class="card-button">XEM NGAY</button>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-sm-12 col-md-6  mt-3">
+                    <div class="card">
+                        <div class="card-image">
+                            <img style="position: absolute;max-width: 50%;height: auto;top: -5px;right: -5px;z-index: 10;" src="images/giamgia.png">
+                            <img src="images/nicklienquan9k.png" style="width:100%;" alt="">
+                        </div>
+                        <strong class="card-title mt-3">THỬ VẬN MAY LIÊN QUÂN 9K</strong>
+                        <div class="card-info">
+                            <span>Số tài khoản:</span> 500
+                        </div>
+                        <button class="card-button">XEM NGAY</button>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-sm-12 col-md-6  mt-3">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="images/rd50.gif" style="width:100%;" alt="">
+                        </div>
+                        <strong class="card-title mt-3">THỬ VẬN MAY LIÊN QUÂN 50K</strong>
+                        <div class="card-info">
+                            <span>Số tài khoản:</span> 0
+                        </div>
+                        <button class="card-button">Chơi Ngay</button>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-sm-12 col-md-6  mt-3">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="images/rd100.gif" style="width:100%;" alt="">
+                        </div>
+                        <strong class="card-title mt-3">THỬ VẬN MAY LIÊN QUÂN 100K</strong>
+                        <div class="card-info">
+                            <span>Số tài khoản:</span> 0
+                        </div>
+                        <button class="card-button">Chơi Ngay</button>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+        
+
+    </main>
+    <footer class="container-fluid banner mt-5">
+        <div class="container">
+            <div class="row ">
+                <div class="col-md-4 col-sm-12">
+                    <img src="images/footer.png" class="w-100" alt="">
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <strong class="text-footer">CHÚNG TÔI Ở ĐÂY</strong><br>
+                    <h6 class="text-footer">CHÚNG TÔI luôn lấy uy tín đặt lên hàng đầu đối với khách hàng, hy vọng chúng
+                        tôi sẽ được phục vụ bạn. Cảm ơn!</h6>
+                    <br>
+                    <h6 class="text-footer">Thời gian hỗ trợ:</h6>
+                    <h6 class="text-footer">Sáng: 8h00 -> 11h30 | Chiều: 13h00 -> 22h00</h6>
+                    <br>
+                    <h6 class="text-footer">Hotline: 098xxxxxx</h6>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+   <a href="" class="bonus_login">
+    <img src="images/PcKisyFBqC_1658744769.gif" alt="">
+   </a>
+   <div class="back-to-top">
+    <i class="bi bi-arrow-up-square "></i>
+   </div>
+   
+</body>
+
+</html>

@@ -1,0 +1,22 @@
+.login-box{
+    width: 400px;
+    margin: 7% auto;
+    padding: 20px;
+}
+.login-box-body{
+    border: 1px solid #cccccc;
+}
+.form-inline a{
+    display: block;
+    height: 35px;
+    line-height: 35px;
+    padding: 0 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    background: blue;
+    color: white;
+    margin-right:5px ;
+}
+.form-inline a:hover{
+    background: red;
+}

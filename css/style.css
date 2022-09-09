@@ -1,0 +1,100 @@
+body{
+    background-color: white;
+    font-weight: bold;
+    position: relative;
+}
+
+.toptext{
+    text-align: center;
+    color: red;
+    margin-bottom: 15px;
+}
+
+.select{
+    width:100%;
+    background: #1f2228;
+    color: white;
+}
+.btn-nap{
+    width: 100%;
+    background: #f8c800;
+    font-weight: bold;
+}
+.banner{
+    background: #1d1d1d;
+    padding: 10px;
+}
+/* main section-1 */
+h1{
+    text-align: center;
+}
+hr{
+    width: 50%;
+    size: 10px;
+    color: aqua;
+}
+.card{
+    background: #ededed;
+}
+.card-title{
+    text-align: center;
+    color: #f7b065;
+}
+.card-info{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.card-info>span{
+    font-weight: normal;
+}
+.card-button{
+    width: 50%;
+    margin: auto;
+    margin-bottom: 30px;
+    background: #f44336;
+}
+.card-button:hover{
+    background: #32c5d2;
+}
+.card-button a{
+    text-decoration: none;
+    color: white;
+}
+/* end */
+/* footer */
+.text-footer{
+    color: white;
+}
+.sticky{
+    position: fixed;
+    top:0;
+    width: 75%;
+    background:white;
+    z-index: 9999;
+    transition: all 1.5s ease;
+}
+.bonus_login{
+    display:block;
+    position: fixed;
+    bottom: 15px;
+    left: 15px;
+    width: 13%;
+    z-index: 1000;
+    cursor: pointer;
+}
+.bonus_login img{
+    width: 100%;
+}
+.back-to-top{
+    display:block;
+    position: fixed;
+    bottom: 30px;
+    right: 8px;
+    width: 13%;
+    z-index: 1000;
+    cursor: pointer;
+    font-size: 40px;
+    color: aquamarine;
+    
+    
+}

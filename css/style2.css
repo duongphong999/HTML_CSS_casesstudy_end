@@ -1,0 +1,31 @@
+.background-banner{
+    background: #e0ebf9;
+}
+.text-banner{
+    font-weight: normal;
+    color: #65a1e2;
+}
+.input-group{
+    border: 1px solid;
+    position: relative;
+    background: #fafafa;
+}
+.input-group-addon{
+    text-align: center;
+    margin: 5px 7px;
+    
+    font-weight: normal;
+}
+.ms{
+    position: absolute;
+	padding: 2px 7px;
+	background-color: #a94442;
+	top: 5px;
+	left: 0;
+	color: #fff;
+	font-weight: 700;
+	font-size: 15px;
+}
+.acc-info{
+    font-weight: normal;
+}

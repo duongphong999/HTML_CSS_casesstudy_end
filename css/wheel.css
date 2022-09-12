@@ -1,0 +1,24 @@
+.play-spin{
+    width: 100%;
+    position: relative;
+}
+.ani-zoom{
+    position: absolute;
+    display: block;
+    width: 110px;
+    z-index:5;
+    top: calc(50% - 70px);
+    left: calc(50% - 115px);
+}
+.ani-zoom img{
+    max-width: 230px;
+    opacity: 0.8;
+}
+.dropdownlist{
+    width:50%;
+    margin: auto;
+    padding:5px 10px;
+    border: 1px solid #144ed7;
+    margin-top:20px;
+    margin-left: 100px;
+}
